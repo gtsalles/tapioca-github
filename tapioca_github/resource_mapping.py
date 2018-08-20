@@ -117,5 +117,13 @@ RESOURCE_MAPPING = {
     'commit_repository': {
         'resource': 'repos/{owner}/{repo}/commits/{sha}',
         'doc': 'https://developer.github.com/v3/repos/commits/#get-a-single-commit'
+    },
+    'users': {
+        'resource': 'users/{username}',
+        'doc': 'https://developer.github.com/v3/users/#get-a-single-user'
+    },
+    'user': {
+        'resource': 'user',
+        'doc': 'https://developer.github.com/v3/users/#get-the-authenticated-user'
     }
 }
